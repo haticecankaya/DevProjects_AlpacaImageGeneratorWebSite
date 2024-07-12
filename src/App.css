@@ -1,0 +1,43 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh ;
+  margin:0;
+  padding: 0;
+  color:rgb(151, 88, 210);
+}
+
+.Main {
+  height: 80%;
+  width: 60%;
+  border: 3px solid rgb(151, 88, 210);
+  padding: 10px 40px;
+  background-color: rgb(249, 249, 249);
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+
+.Customize{
+  border: 3px solid rgb(151, 88, 210);
+  display: flex;
+  justify-content:space-between;
+  padding: 30px;
+}
+
+.Avatar{
+  border: 3px solid rgb(151, 88, 210);
+  width: 48%;
+  
+}
+
+.Options{
+  border: 3px solid rgb(151, 88, 210);
+  width: 48%;
+}
+
+.Buttons{
+  border: 3px solid rgb(151, 88, 210);
+}
